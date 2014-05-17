@@ -21,14 +21,15 @@ Instantiating the IME is so far as simple as calling the init method with the ar
 As of now it is only possible to attach the IME to one dom element.
 
 JS:
-	window.onload = function(e){
-		hangul.init("krinput");
-	};
-
+```javascript
+window.onload = function(e){
+	hangul.init("krinput");
+};
+```
 HTML:
-
-	 <textarea id="krinput"></textarea>
- 
+```html
+ <textarea id="krinput"></textarea>
+```
 
 Demo:
 
