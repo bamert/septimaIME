@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hangulIME</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+ 	<style>
+ 		body,html{
+ 			height:100%;
+ 			width:100%;
+ 			margin:0;
+ 			padding:0;
+ 		}
+ 		textarea{
+ 			height:100%;
+ 			width:100%;
+ 			font-size:20pt;
+ 		}
+	</style>
+    <script type="text/javascript" src="ime.js"> </script>
+	<script>
+		window.onload = function(e){
+			hangul.init("krinput");
+		};
+	</script>
+  </head>
+  <body >
+
+   
+    <textarea id="krinput"></textarea>
+  
+    
+  </body>
+</html>
